@@ -1,0 +1,79 @@
+[gd_scene load_steps=3 format=3 uid="uid://du05fcd8pvwkp"]
+
+[ext_resource type="PackedScene" uid="uid://cye824heggpna" path="res://grass.tscn" id="1_pubjp"]
+[ext_resource type="PackedScene" uid="uid://ccjamkgx455kr" path="res://player.tscn" id="2_jdjt8"]
+
+[node name="World" type="Node2D"]
+
+[node name="Grass" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(0, 544)
+
+[node name="Grass4" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(0, 480)
+
+[node name="Grass22" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(0, 512)
+
+[node name="Grass2" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(32, 544)
+
+[node name="Grass3" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(64, 544)
+
+[node name="Grass5" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(96, 544)
+
+[node name="Grass6" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(128, 544)
+
+[node name="Grass7" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(160, 544)
+
+[node name="Grass8" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(192, 544)
+
+[node name="Grass9" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(224, 512)
+
+[node name="Grass10" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(256, 480)
+
+[node name="Grass11" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(288, 480)
+
+[node name="Grass12" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(320, 512)
+
+[node name="Grass13" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(352, 544)
+
+[node name="Grass14" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(448, 544)
+
+[node name="Grass15" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(480, 544)
+
+[node name="Grass16" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(544, 512)
+
+[node name="Grass17" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(640, 480)
+
+[node name="Grass18" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(768, 448)
+
+[node name="Grass19" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(992, 384)
+
+[node name="Grass23" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(992, 352)
+
+[node name="Grass20" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(992, 416)
+
+[node name="Grass21" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(960, 416)
+
+[node name="Player" parent="." instance=ExtResource("2_jdjt8")]
+position = Vector2(80, 352)
+scale = Vector2(3, 3)

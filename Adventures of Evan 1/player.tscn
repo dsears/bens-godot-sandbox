@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://ccjamkgx455kr"]
+
+[ext_resource type="Texture2D" uid="uid://obr0lv8dfikw" path="res://art/playerwalk1.png" id="1_rvl6t"]
+[ext_resource type="Script" path="res://player.gd" id="1_scan5"]
+[ext_resource type="Texture2D" uid="uid://bkln0lgvyfyxo" path="res://art/playerwalk2.png" id="2_mgaq1"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_55mdr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_rvl6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_mgaq1")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 6.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ai30u"]
+size = Vector2(12, 23)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_scan5")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(16, 16)
+sprite_frames = SubResource("SpriteFrames_55mdr")
+animation = &"walk"
+frame_progress = 0.722205
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(14, 20.5)
+shape = SubResource("RectangleShape2D_ai30u")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(14, 20.5)
+scale = Vector2(0.6, 1.15)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
