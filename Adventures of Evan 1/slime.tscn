@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://sbq68ai2xp2y"]
+
+[ext_resource type="Script" path="res://slime.gd" id="1_8vkm5"]
+[ext_resource type="Texture2D" uid="uid://23oyfqm02xj4" path="res://art/green slime 1.png" id="1_c8l3q"]
+[ext_resource type="Texture2D" uid="uid://d08ypdlgfr6ya" path="res://art/green slime 2.png" id="2_v54h7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v0p8q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_c8l3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_v54h7")
+}],
+"loop": true,
+"name": &"sliming",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wokxi"]
+size = Vector2(32, 11)
+
+[node name="Slime" type="CharacterBody2D"]
+script = ExtResource("1_8vkm5")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_v0p8q")
+animation = &"sliming"
+autoplay = "sliming"
+frame = 1
+frame_progress = 0.819792
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 10.5)
+shape = SubResource("RectangleShape2D_wokxi")

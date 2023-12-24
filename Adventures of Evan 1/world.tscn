@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://du05fcd8pvwkp"]
+[gd_scene load_steps=4 format=3 uid="uid://du05fcd8pvwkp"]
 
 [ext_resource type="PackedScene" uid="uid://cye824heggpna" path="res://grass.tscn" id="1_pubjp"]
 [ext_resource type="PackedScene" uid="uid://ccjamkgx455kr" path="res://player.tscn" id="2_jdjt8"]
+[ext_resource type="PackedScene" uid="uid://c0uh8i8f00pn0" path="res://spikes.tscn" id="3_hcfxb"]
 
 [node name="World" type="Node2D"]
 
@@ -21,10 +22,13 @@ position = Vector2(32, 544)
 position = Vector2(64, 544)
 
 [node name="Grass5" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(96, 544)
+position = Vector2(896, 480)
+
+[node name="Grass38" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(96, 512)
 
 [node name="Grass6" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(128, 544)
+position = Vector2(128, 512)
 
 [node name="Grass7" parent="." instance=ExtResource("1_pubjp")]
 position = Vector2(160, 544)
@@ -33,16 +37,142 @@ position = Vector2(160, 544)
 position = Vector2(192, 544)
 
 [node name="Grass9" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(224, 512)
+position = Vector2(224, 544)
 
 [node name="Grass10" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(256, 480)
+position = Vector2(256, 544)
 
 [node name="Grass11" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(288, 480)
+position = Vector2(288, 544)
+
+[node name="Grass40" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(960, 448)
+
+[node name="Grass41" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(960, 480)
+
+[node name="Grass42" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(960, 512)
+
+[node name="Grass43" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(-32, 352)
+
+[node name="Grass44" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(-32, 320)
+
+[node name="Grass45" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(0, 448)
+
+[node name="Grass46" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(0, 416)
+
+[node name="Grass47" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(-16, 384)
+
+[node name="Grass48" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(0, 352)
+
+[node name="Grass49" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(32, 352)
+
+[node name="Grass50" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(224, 320)
+
+[node name="Grass51" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(416, 320)
+
+[node name="Grass52" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(64, 352)
+
+[node name="Grass53" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(96, 352)
+
+[node name="Grass54" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(128, 352)
+
+[node name="Grass55" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(192, 320)
+
+[node name="Grass56" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(448, 320)
+
+[node name="Grass57" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(608, 320)
+
+[node name="Grass58" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(960, 544)
+
+[node name="Grass59" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(160, 352)
+
+[node name="Grass60" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(192, 352)
+
+[node name="Grass61" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(224, 352)
+
+[node name="Grass62" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(256, 352)
+
+[node name="Grass63" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(288, 352)
+
+[node name="Grass64" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(320, 352)
+
+[node name="Grass65" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(352, 352)
+
+[node name="Grass66" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(384, 352)
+
+[node name="Grass67" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(416, 352)
+
+[node name="Grass68" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(448, 352)
+
+[node name="Grass69" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(480, 352)
+
+[node name="Grass70" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(512, 352)
+
+[node name="Grass71" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(544, 352)
+
+[node name="Grass72" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(576, 352)
+
+[node name="Grass73" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(608, 352)
+
+[node name="Grass74" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(640, 352)
+
+[node name="Grass75" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(672, 352)
+
+[node name="Grass76" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(704, 352)
+
+[node name="Grass77" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(736, 368)
+
+[node name="Grass78" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(768, 384)
+
+[node name="Grass79" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(800, 400)
+
+[node name="Grass80" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(928, 480)
+
+[node name="Grass81" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(928, 448)
 
 [node name="Grass12" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(320, 512)
+position = Vector2(320, 544)
 
 [node name="Grass13" parent="." instance=ExtResource("1_pubjp")]
 position = Vector2(352, 544)
@@ -50,30 +180,216 @@ position = Vector2(352, 544)
 [node name="Grass14" parent="." instance=ExtResource("1_pubjp")]
 position = Vector2(448, 544)
 
+[node name="Grass26" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(416, 544)
+
 [node name="Grass15" parent="." instance=ExtResource("1_pubjp")]
 position = Vector2(480, 544)
 
 [node name="Grass16" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(544, 512)
+position = Vector2(512, 544)
 
 [node name="Grass17" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(640, 480)
+position = Vector2(544, 544)
+
+[node name="Grass24" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(576, 544)
+
+[node name="Grass27" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(896, 512)
+
+[node name="Grass25" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(384, 544)
 
 [node name="Grass18" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(768, 448)
+position = Vector2(736, 544)
+
+[node name="Grass28" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(704, 544)
+
+[node name="Grass29" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(672, 544)
+
+[node name="Grass30" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(640, 544)
+
+[node name="Grass31" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(608, 544)
 
 [node name="Grass19" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(992, 384)
+position = Vector2(832, 544)
 
 [node name="Grass23" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(992, 352)
+position = Vector2(896, 544)
+
+[node name="Grass33" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(608, 512)
+
+[node name="Grass39" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(128, 480)
+
+[node name="Grass34" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(928, 512)
+
+[node name="Grass35" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(384, 512)
+
+[node name="Grass36" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(864, 512)
+
+[node name="Grass37" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(928, 544)
+
+[node name="Grass32" parent="." instance=ExtResource("1_pubjp")]
+position = Vector2(864, 544)
 
 [node name="Grass20" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(992, 416)
+position = Vector2(800, 544)
 
 [node name="Grass21" parent="." instance=ExtResource("1_pubjp")]
-position = Vector2(960, 416)
+position = Vector2(768, 544)
 
 [node name="Player" parent="." instance=ExtResource("2_jdjt8")]
-position = Vector2(80, 352)
+position = Vector2(32, 576)
 scale = Vector2(3, 3)
+
+[node name="Spikes" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(160, 512)
+
+[node name="Spikes3" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(416, 528)
+
+[node name="Spikes10" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes11" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes12" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes13" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes14" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes15" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes16" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes17" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes18" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes19" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes20" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes21" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(64, 320)
+
+[node name="Spikes22" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(96, 320)
+
+[node name="Spikes23" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(128, 320)
+
+[node name="Spikes24" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(160, 320)
+
+[node name="Spikes25" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(0, 320)
+
+[node name="Spikes26" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(32, 320)
+
+[node name="Spikes27" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(288, 320)
+
+[node name="Spikes28" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(320, 320)
+
+[node name="Spikes29" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(352, 320)
+
+[node name="Spikes30" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 320)
+
+[node name="Spikes31" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(256, 320)
+
+[node name="Spikes32" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(480, 320)
+
+[node name="Spikes33" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(512, 320)
+
+[node name="Spikes34" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(544, 320)
+
+[node name="Spikes35" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(576, 320)
+
+[node name="Spikes4" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(640, 528)
+
+[node name="Spikes2" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(448, 528)
+
+[node name="Spikes5" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(672, 528)
+
+[node name="Spikes9" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes6" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes7" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(384, 608)
+
+[node name="Spikes8" parent="." instance=ExtResource("3_hcfxb")]
+position = Vector2(704, 528)
+
+[connection signal="body_entered" from="Spikes" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes3" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes10" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes11" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes12" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes13" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes14" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes15" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes16" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes17" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes18" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes19" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes20" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes21" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes22" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes23" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes24" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes25" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes26" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes27" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes28" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes29" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes30" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes31" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes32" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes33" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes34" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes35" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes4" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes2" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes5" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes9" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes6" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes7" to="Player" method="_on_spikes_body_entered"]
+[connection signal="body_entered" from="Spikes8" to="Player" method="_on_spikes_body_entered"]

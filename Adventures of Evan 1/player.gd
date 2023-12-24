@@ -40,3 +40,7 @@ func _physics_process(delta):
 
 func _on_visible_on_screen_notifier_2d_screen_exited():
 	reset_game()
+
+
+func _on_spikes_body_entered(body):
+	reset_game() # Replace with function body.
